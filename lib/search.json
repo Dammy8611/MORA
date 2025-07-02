@@ -1,0 +1,6 @@
+{
+  "google": "./search/google.js",
+  "duckduckgo": "./search/duckduckgo.js",
+  "anime": "./search/anime.js",
+  "manga": "./search/manga.js"
+}

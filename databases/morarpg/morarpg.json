@@ -1,0 +1,9 @@
+{
+  "info": {
+    "name": "Mora RPG",
+    "description": "A fantasy role-playing game set in the world of Mora, where players embark on epic quests, battle mythical creatures, and explore vast landscapes.",
+    "version": "1.0.0",
+    "author": "GameDev Studio",
+    "license": "MIT"
+  }
+}

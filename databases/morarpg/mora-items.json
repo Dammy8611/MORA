@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "mora:items/wooden_sword",
+      "name": "Wooden Sword",
+      "description": "A basic sword made of wood, suitable for training.",
+      "type": "weapon",
+      "damage": 5,
+      "durability": 20,
+      "rarity": "common"
+    },
+    {
+      "id": "mora:items/iron_shield",
+      "name": "Iron Shield",
+      "description": "A sturdy shield made of iron, providing good protection.",
+      "type": "armor",
+      "defense": 10,
+      "durability": 50,
+      "rarity": "uncommon"
+    },
+    {
+      "id": "mora:items/healing_potion",
+      "name": "Healing Potion",
+      "description": "A potion that restores health when consumed.",
+      "type": "consumable",
+      "effect": {
+        "health_restore": 20
+      },
+      "rarity": "common"
+    }
+  ]
+}

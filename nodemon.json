@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "index.js",
+    "lib/commands/reload.js",
+    "lib/commands/restart.js",
+    "package.json",
+    "lib/commands/update.js",
+    "lib/commands/search/*"
+  ],
+  "ext": "js,json",
+  "ignore": ["session/", "lib/*"],
+  "exec": "node index.js",
+  "restartable": "rs"
+}

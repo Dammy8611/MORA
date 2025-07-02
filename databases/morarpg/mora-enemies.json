@@ -1,0 +1,86 @@
+{
+  "monsters": [
+    {
+      "name": "Goblin",
+      "level": 1,
+      "health": 30,
+      "attack": 5,
+      "defense": 2,
+      "experience": 10,
+      "gold": 5,
+      "abilities": ["Slash", "Dodge"]
+    },
+    {
+      "name": "Orc",
+      "level": 3,
+      "health": 50,
+      "attack": 10,
+      "defense": 5,
+      "experience": 20,
+      "gold": 10,
+      "abilities": ["Smash", "Roar"]
+    },
+    {
+      "name": "Skeleton",
+      "level": 2,
+      "health": 40,
+      "attack": 7,
+      "defense": 3,
+      "experience": 15,
+      "gold": 8,
+      "abilities": ["Bone Throw", "Shield Block"]
+    },
+    {
+      "name": "Zombie",
+      "level": 4,
+      "health": 60,
+      "attack": 12,
+      "defense": 6,
+      "experience": 25,
+      "gold": 12,
+      "abilities": ["Bite", "Slow"]
+    },
+    {
+      "name": "Troll",
+      "level": 6,
+      "health": 80,
+      "attack": 15,
+      "defense": 8,
+      "experience": 40,
+      "gold": 20,
+      "abilities": ["Club Smash", "Regenerate"]
+    },
+    {
+      "name": "Dragon",
+      "level": 10,
+      "health": 200,
+      "attack": 25,
+      "defense": 15,
+      "experience": 100,
+      "gold": 50,
+      "abilities": ["Fire Breath", "Tail Swipe"]
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Dark Sorcerer",
+      "level": 15,
+      "health": 300,
+      "attack": 40,
+      "defense": 20,
+      "experience": 200,
+      "gold": 100,
+      "abilities": ["Shadow Bolt", "Summon Minions"]
+    },
+    {
+      "name": "Ancient Dragon",
+      "level": 20,
+      "health": 500,
+      "attack": 60,
+      "defense": 30,
+      "experience": 500,
+      "gold": 250,
+      "abilities": ["Flame Breath", "Wing Attack"]
+    }
+  ]
+}

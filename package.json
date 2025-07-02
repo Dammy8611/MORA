@@ -1,0 +1,30 @@
+{
+  "name": "fun-i-guess",
+  "version": "1.2.1",
+  "description": "IDK what this is, but it does something with WhatsApp.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cacheable/node-cache": "^1.5.7",
+    "@consumet/extensions": "^1.8.1",
+    "@hapi/boom": "^10.0.1",
+    "baileys": "npm:baileys-mod@^6.8.5",
+    "baileys-mod": "^6.8.5",
+    "cheerio": "^1.1.0",
+    "jimp": "^0.16.13",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.1.10",
+    "open": "^10.1.2",
+    "pino": "^9.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "string-width": "^7.2.0",
+    "uuid": "^11.1.0",
+    "wcwidth": "^1.0.1"
+  }
+}

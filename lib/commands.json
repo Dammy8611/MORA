@@ -1,0 +1,104 @@
+[
+  {
+    "name": "say",
+    "syntax": ".say <your text>",
+    "file_location": "./commands/say.js",
+    "description": "The bot repeats the provided text.",
+    "category": "fun",
+    "public": true
+  },
+  {
+    "name": "ping",
+    "syntax": ".ping",
+    "file_location": "./commands/ping.js",
+    "description": "Checks the bot's response time.",
+    "category": "general",
+    "public": true
+  },
+  {
+    "name": "reload",
+    "syntax": ".reload",
+    "file_location": "./commands/reload.js",
+    "description": "Reloads the commands from the JSON file. (Owner only)",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "menu",
+    "syntax": ".menu",
+    "file_location": "./commands/menu.js",
+    "description": "Lists all available commands.",
+    "category": "general",
+    "public": true
+  },
+  {
+    "name": "hangman",
+    "syntax": ".hangman",
+    "file_location": "./commands/hangman.js",
+    "description": "Play Hangman in a group chat.",
+    "category": "games",
+    "public": true
+  },
+  {
+    "name": "listsessions",
+    "syntax": ".listsessions",
+    "file_location": "./commands/listSessions.js",
+    "description": "Lists all active sessions.",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "stopsession",
+    "syntax": ".stopsession <sessionId>",
+    "file_location": "./commands/stopSession.js",
+    "description": "Ends a specific session by its ID.",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "sysinfo",
+    "syntax": ".sysinfo",
+    "file_location": "./commands/sysinfo.js",
+    "description": "Show system information.",
+    "category": "utility",
+    "public": true
+  },
+  {
+    "name": "setmenustyle",
+    "syntax": ".setmenustyle <1|2|3>",
+    "file_location": "./commands/setMenuStyle.js",
+    "description": "Change the menu style (1, 2, or 3). (Owner only).",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "update",
+    "syntax": ".update [now]",
+    "file_location": "./commands/update.js",
+    "description": "Check for updates and changelog, or update now (owner only).",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "restart",
+    "syntax": ".restart",
+    "file_location": "./commands/restart.js",
+    "description": "Restart the bot. (Owner only)",
+    "category": "owner",
+    "public": false
+  },
+  {
+    "name": "search",
+    "syntax": ".search <query>",
+    "file_location": "./commands/search.js",
+    "description": "Search the web using Google or DuckDuckGo.",
+    "category": "utility",
+    "public": true,
+    "subcommands": [
+      { "name": "google", "description": "Search with Google" },
+      { "name": "duckduckgo", "description": "Search with DuckDuckGo" },
+      { "name": "anime", "description": "Search for anime-related content" },
+      { "name": "manga", "description": "Search for manga-related content" }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "dungeons": [
+    {
+      "name": "Mora Dungeon",
+      "description": "A dark and mysterious dungeon filled with ancient secrets and powerful foes.",
+      "level": 5,
+      "location": "Mora",
+      "treasures": [
+        {
+          "name": "Ancient Relic",
+          "type": "Artifact",
+          "value": 500
+        },
+        {
+          "name": "Potion of Strength",
+          "type": "Potion",
+          "effect": "+10 Attack"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Cavern",
+      "description": "A cavern filled with glowing crystals and dangerous creatures.",
+      "level": 8,
+      "location": "Mora Mountains",
+      "treasures": [
+        {
+          "name": "Crystal Shard",
+          "type": "Gem",
+          "value": 300
+        },
+        {
+          "name": "Elixir of Wisdom",
+          "type": "Potion",
+          "effect": "+5 Intelligence"
+        }
+      ]
+    },
+    {
+      "name": "Forgotten Catacombs",
+      "description": "An ancient burial ground filled with undead and lost souls.",
+      "level": 10,
+      "location": "Mora Underworld",
+      "treasures": [
+        {
+          "name": "Golden Skull",
+          "type": "Artifact",
+          "value": 800
+        },
+        {
+          "name": "Bone Amulet",
+          "type": "Accessory",
+          "effect": "+5 Defense"
+        },
+        {
+          "name": "Scroll of Healing",
+          "type": "Scroll",
+          "effect": "+20 Health"
+        }
+      ]
+    }
+  ]
+}

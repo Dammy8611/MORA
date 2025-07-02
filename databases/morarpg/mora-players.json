@@ -1,0 +1,174 @@
+{
+  "234913462295": {
+    "playerName": "Dtechy",
+    "level": 10,
+    "experience": 1500,
+    "health": 100,
+    "mana": 50,
+    "inventory": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "item-001",
+          "itemName": "Health Potion",
+          "quantity": 5
+        },
+        {
+          "itemId": "item-002",
+          "itemName": "Mana Potion",
+          "quantity": 3
+        },
+        { "itemId": "item-003", "itemName": "Iron Sword", "quantity": 1 },
+        {
+          "itemId": "item-004",
+          "itemName": "Leather Armor",
+          "quantity": 1
+        }
+      ]
+    },
+    "quests": [
+      {
+        "questName": "Defeat the Goblin King",
+        "status": "in-progress",
+        "progress": 50,
+        "reward": {
+          "experience": 500,
+          "gold": 100,
+          "items": [
+            {
+              "itemId": "item-123",
+              "itemName": "Goblin Crown",
+              "itemDescription": "A crown taken from the Goblin King, rumored to have magical properties.",
+              "quantity": 1
+            },
+            {
+              "itemId": "item-456",
+              "itemName": "Goblin Shield",
+              "itemDescription": "A sturdy shield made from goblin materials, providing decent protection.",
+              "quantity": 1
+            }
+          ],
+          "questDescription": "Defeat the Goblin King and bring back his crown."
+        }
+      }
+    ],
+    "achievements": [
+      {
+        "achievementName": "First Blood",
+        "description": "Defeat your first monster.",
+        "dateAchieved": "2023-10-01T12:00:00Z"
+      },
+      {
+        "achievementName": "Treasure Hunter",
+        "description": "Find a hidden treasure chest.",
+        "dateAchieved": "2023-10-02T14:30:00Z"
+      }
+    ],
+    "lastLogin": "2023-10-03T08:45:00Z",
+    "currentlyEquipped": {
+      "weapon": "weapon-120",
+      "armor": "armor-45",
+      "accessories": [
+        {
+          "accessoryId": "accessory-789",
+          "accessoryName": "Ring of Strength",
+          "effect": "Increases strength by 5"
+        },
+        {
+          "accessoryId": "accessory-101",
+          "accessoryName": "Amulet of Wisdom",
+          "effect": "Increases mana regeneration by 2 per minute during combat"
+        }
+      ]
+    },
+    "skills": {
+      "combat": {
+        "swordsmanship": {
+          "level": 5,
+          "experience": 1200,
+          "abilities": [
+            {
+              "abilityName": "Slash",
+              "description": "A quick slash attack that deals moderate damage.",
+              "cooldown": 5,
+              "manaCost": 10,
+              "damage": 30
+            },
+            {
+              "abilityName": "Stab",
+              "description": "A precise stab that deals high damage but has a longer cooldown.",
+              "cooldown": 10,
+              "manaCost": 15,
+              "damage": 50
+            }
+          ]
+        },
+        "archery": {
+          "level": 3,
+          "experience": 800,
+          "abilities": [
+            {
+              "abilityName": "Quick Shot",
+              "description": "A rapid shot that deals low damage but has a short cooldown.",
+              "cooldown": 3,
+              "manaCost": 5,
+              "damage": 20
+            },
+            {
+              "abilityName": "Power Shot",
+              "description": "A powerful shot that deals high damage but has a long cooldown.",
+              "cooldown": 8,
+              "manaCost": 20,
+              "damage": 60
+            }
+          ]
+        }
+      },
+      "magic": {
+        "fireMagic": {
+          "level": 4,
+          "experience": 1000,
+          "abilities": [
+            {
+              "abilityName": "Fireball",
+              "description": "A fiery projectile that deals damage to a single target.",
+              "cooldown": 6,
+              "manaCost": 15,
+              "damage": 40
+            },
+            {
+              "abilityName": "Flame Wave",
+              "description": "A wave of fire that deals damage to all enemies in front of you.",
+              "cooldown": 12,
+              "manaCost": 30,
+              "damage": 70
+            }
+          ]
+        },
+        "healingMagic": {
+          "level": 2,
+          "experience": 600,
+          "abilities": [
+            {
+              "abilityName": "Heal",
+              "description": "A spell that restores health to a single target.",
+              "cooldown": 5,
+              "manaCost": 10,
+              "healing": 50
+            },
+            {
+              "abilityName": "Group Heal",
+              "description": "A spell that restores health to all allies in a small area.",
+              "cooldown": 15,
+              "manaCost": 25,
+              "healing": 30
+            }
+          ]
+        }
+      }
+    },
+    "guild": {
+      "guildId": "guild123"
+    }
+  }
+}

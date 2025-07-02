@@ -1,0 +1,43 @@
+{
+  "shopName": "Mora Shop",
+  "shopDescription": "A mystical shop in the heart of Mora, offering rare items, potions, and equipment for adventurers.",
+  "itemsForSale": [
+    {
+      "itemId": "item-001",
+      "itemName": "Elven Bow",
+      "itemDescription": "A finely crafted bow made by the elves, known for its accuracy and speed.",
+      "price": 150,
+      "quantityAvailable": 10,
+      "levelRequirement": 5,
+      "rarity": "rare"
+    },
+    {
+      "itemId": "item-002",
+      "itemName": "Dragon Scale Armor",
+      "itemDescription": "An armor made from the scales of a dragon, providing exceptional protection.",
+      "price": 500,
+      "quantityAvailable": 5,
+      "levelRequirement": 10,
+      "rarity": "legendary"
+    },
+    {
+      "itemId": "item-003",
+      "itemName": "Mana Elixir",
+      "itemDescription": "A powerful elixir that restores mana instantly.",
+      "price": 75,
+      "quantityAvailable": 20,
+      "levelRequirement": 3,
+      "rarity": "uncommon"
+    },
+    {
+      "itemId": "item-004",
+      "itemName": "Phoenix Feather",
+      "itemDescription": "A rare feather from a phoenix, rumored to have healing properties.",
+      "price": 300,
+      "quantityAvailable": 3,
+      "levelRequirement": 8,
+      "rarity": "epic"
+    }
+  ],
+  "currency": "gold"
+}
