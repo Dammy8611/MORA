@@ -1,4 +1,4 @@
-# fun-I-guess
+# MORA Whatsapp BOT
 
 A feature-rich WhatsApp bot powered by [Baileys](https://github.com/WhiskeySockets/Baileys), offering group games, utility commands, and experimental RPG elements.
 
@@ -11,6 +11,7 @@ A feature-rich WhatsApp bot powered by [Baileys](https://github.com/WhiskeySocke
 - **Customizable Menu:** Choose from multiple menu styles, access owner-only commands, and reload commands on the fly.
 - **RPG System (Experimental):** Dive into a text-based dungeon crawler with inventory, combat, and shops.
 - **System Utilities:** Check bot/system info, uptime, and more.
+- **Hot Reloading:** Instantly reload commands and configuration without restarting the bot.
 
 ---
 
@@ -27,6 +28,7 @@ A feature-rich WhatsApp bot powered by [Baileys](https://github.com/WhiskeySocke
 | `.sysinfo`                 | Show system information                |
 | `.setmenustyle <1\|2\|3>`  | Change menu style (owner only)         |
 | `.reload`                  | Reload commands from JSON (owner only) |
+| `.rpg`                     | Access RPG features (experimental)     |
 
 ---
 
@@ -55,6 +57,7 @@ lib/commands/           # Command handler modules
 sessionStore.js         # In-memory session management
 databases/morarpg/      # RPG data (items, players, dungeons, etc.)
 config.json             # Bot configuration
+lib/                    # Core logic and helpers
 ```
 
 ---
@@ -64,6 +67,7 @@ config.json             # Bot configuration
 - Add new commands in `lib/commands/` and register them in `lib/commands.json`.
 - Owner commands are restricted to numbers in `ownerNumbers` in `config.json`.
 - Supports hot-reloading of config and commands.
+- RPG features are under active development and may change frequently.
 
 ---
 
@@ -71,7 +75,7 @@ config.json             # Bot configuration
 
 - Built with [Baileys](https://github.com/WhiskeySockets/Baileys) and [Baileys-mod](https://github.com/nstar-y/bail)
 - RPG system inspired by classic dungeon crawlers
-- Developer: Dtechy(damy84511@gmail.com)
-- Github: [@Dammy8611](https://github.com/Dammy8611)
+- Developer: Dtechy (damy84511@gmail.com)
+- GitHub: [@Dammy8611](https://github.com/Dammy8611)
 
 > **Note:** This project is for educational and personal use. Use responsibly and respect WhatsApp's terms of service.
