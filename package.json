@@ -1,14 +1,14 @@
 {
-  "name": "fun-i-guess",
-  "version": "1.2.1",
-  "description": "IDK what this is, but it does something with WhatsApp.",
+  "name": "mora-whatsapp-bot",
+  "version": "1.2.2",
+  "description": "MORA is a WhatsApp bot that provides various functionalities including media handling, chat management, and more.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "DTECHY",
   "license": "ISC",
   "dependencies": {
     "@cacheable/node-cache": "^1.5.7",
