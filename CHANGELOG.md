@@ -4,7 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-- Initial setup
+### Added
+
+- User login feature
+
+### Fixed
+
+- Resolved crash when submitting empty forms
 
 ## [0.1.0] - 2024-06-11
 
