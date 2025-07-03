@@ -1,0 +1,6 @@
+Version: 1.3.0
+Details: 
+- Added new update system
+- Added new command: github, help, manga, report. Use .help <command> to learn more
+- Improved performance
+- Fixed minor bugs

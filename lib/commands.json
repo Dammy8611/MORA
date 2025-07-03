@@ -100,5 +100,45 @@
       { "name": "anime", "description": "Search for anime-related content" },
       { "name": "manga", "description": "Search for manga-related content" }
     ]
+  },
+  {
+    "name": "test",
+    "syntax": ".test",
+    "file_location": "./commands/test.js",
+    "description": "A test command for development purposes.",
+    "category": "development",
+    "public": false
+  },
+  {
+    "name": "help",
+    "syntax": ".help [command]",
+    "file_location": "./commands/help.js",
+    "description": "Get help on a specific command or list all commands.",
+    "category": "general",
+    "public": true
+  },
+  {
+    "name": "github",
+    "syntax": ".github",
+    "file_location": "./commands/github.js",
+    "description": "Get the GitHub repository link.",
+    "category": "general",
+    "public": true
+  },
+  {
+    "name": "manga",
+    "syntax": ".manga <query>",
+    "file_location": "./commands/manga.js",
+    "description": "Search for manga using the MangaDex API.",
+    "category": "utility",
+    "public": true
+  },
+  {
+    "name": "report",
+    "syntax": ".report <details>",
+    "file_location": "./commands/report.js",
+    "description": "Send a report to the developer. You can also reply to a message with .report <details>.",
+    "category": "general",
+    "public": true
   }
 ]

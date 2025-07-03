@@ -1,6 +1,6 @@
 {
   "name": "mora-whatsapp-bot",
-  "version": "1.2.91",
+  "version": "1.3.0",
   "description": "MORA is a WhatsApp bot that provides various functionalities including media handling, chat management, and more.",
   "main": "index.js",
   "type": "commonjs",
@@ -18,6 +18,7 @@
     "baileys-mod": "^6.8.5",
     "cheerio": "^1.1.0",
     "jimp": "^0.16.13",
+    "link-preview-js": "^3.1.0",
     "node-cache": "^5.1.2",
     "open": "^10.1.2",
     "uuid": "^11.1.0"
