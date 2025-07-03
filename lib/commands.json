@@ -102,14 +102,6 @@
     ]
   },
   {
-    "name": "test",
-    "syntax": ".test",
-    "file_location": "./commands/test.js",
-    "description": "A test command for development purposes.",
-    "category": "development",
-    "public": false
-  },
-  {
     "name": "help",
     "syntax": ".help [command]",
     "file_location": "./commands/help.js",
